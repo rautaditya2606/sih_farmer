@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Farmer Advisory</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="chat-shell">
+    <header class="chat-header">
+      <div class="title">AI Farmer Advisory</div>
+      <div class="subtitle">Palakkad · Rice · Kharif</div>
+    </header>
+
+    <main id="chat" class="chat-body">
+      <div id="messages" class="messages"></div>
+      <div id="typing" class="typing hidden">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </div>
+    </main>
+
+    <footer class="composer">
+      <div class="left-tools">
+        <button id="micBtn" title="Record voice" class="icon-btn">🎙️</button>
+        <input type="file" id="image" accept="image/*" class="hidden" />
+        <button id="imageBtn" title="Attach image" class="icon-btn">📷</button>
+      </div>
+      <div class="center-input">
+        <div id="imgPreview" class="img-preview hidden"><img id="imgThumb" alt="preview" /><button id="clearImg" title="Remove">✕</button></div>
+        <textarea id="text" placeholder="Type your question in Malayalam or English..." rows="1"></textarea>
+      </div>
+      <div class="right-send">
+        <button id="sendBtn" class="send">Send</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html> 

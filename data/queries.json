@@ -1,0 +1,334 @@
+[
+  {
+    "id": "1758741795787",
+    "type": "text",
+    "query": "Transcribed Malayalam/English text from voice note (stub)",
+    "normalizedQuery": "Transcribed Malayalam/English text from voice note (stub)",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "Please provide the transcribed Malayalam/English text from the voice note.  I need the text of the voice note to be able to answer your question effectively.\n\nOnce you provide the text, I can help you with things like:\n\n*   Understanding the question being asked.\n*   Providing information related to rice farming in Palakkad during Kharif season.\n*   Suggesting potential answers to the question.\n",
+      "confidence": 0.85,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:23:15.787Z"
+  },
+  {
+    "id": "1758741807562",
+    "type": "text",
+    "query": "hello",
+    "normalizedQuery": "hello",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "It sounds like you're setting up a scenario for a question about rice farming in Palakkad, Kerala during the Kharif season. \n\nTo help you, tell me, what is your question? I'm ready to answer it based on that context. For example, you could ask:\n\n*   \"What are the common challenges faced by rice farmers in Palakkad during the Kharif season?\"\n*   \"What is the average yield of rice in Palakkad during the Kharif season?\"\n*   \"What are some recommended rice varieties for Palakkad during the Kharif season?\"\n*   \"What are the common pests and diseases that affect rice crops in Palakkad during the Kharif season?\"\n\nJust let me know what you want to know!\n",
+      "confidence": 0.85,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:23:27.562Z"
+  },
+  {
+    "id": "1758741905669",
+    "type": "text",
+    "query": "hii",
+    "normalizedQuery": "hii",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "Hello! As your agronomy assistant for Kharif rice in Palakkad, Kerala, I'm ready to help you optimize your rice production this season. Please tell me what specific information or assistance you need related to your rice crop.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:25:05.669Z"
+  },
+  {
+    "id": "1758742071116",
+    "type": "text",
+    "query": "hello",
+    "normalizedQuery": "hello",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "Namaste! For Kharif rice in Palakkad, focus on transplanting healthy seedlings (~21 days old) at a spacing of 20x15cm for optimal tillering. Ensure proper drainage to prevent waterlogging.\n\nCaution: Monitor for blast disease, especially during periods of high humidity, and apply appropriate fungicides like Tricyclazole if symptoms appear.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:27:51.116Z"
+  },
+  {
+    "id": "1758742078482",
+    "type": "text",
+    "query": "vannakam",
+    "normalizedQuery": "vannakam",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "Vannakam! For Kharif rice in Palakkad, focus on timely transplanting and water management. Ensure seedlings are 21-25 days old and transplant 2-3 seedlings per hill with a spacing of 20x15 cm. Maintain a shallow water level (2-5 cm) for the first few weeks.\n\nCaution: Monitor for pests like stem borers; neem oil sprays (5ml/liter of water) can help control early infestations.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:27:58.482Z"
+  },
+  {
+    "id": "1758742088372",
+    "type": "text",
+    "query": "speak in tamil",
+    "normalizedQuery": "speak in tamil",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "சரியா, காரிஃப் பருவத்துல பாலக்காடு நெல் விவசாயிகளுக்கு சில ஆலோசனைகள்:\n\n*   **நடவுக்கு முன்னாடி:** ஒரு ஏக்கருக்கு 200 கிலோ தொழு உரம் போட்டு நிலத்தை தயார் பண்ணுங்க. அசோஸ்பைரில்லம் (Azospirillum) உயிர் உரத்தை நாற்றுகளின் வேர்களில் தடவி நடவு செய்யுங்க.\n*   **நடவு செய்த பின்:** நடவு செஞ்ச 20-25 நாள்ல களை எடுக்கணும். யூரியா 45 கிலோ ஒரு ஏக்கருக்கு தெளிச்சு, கூடவே வேப்பம் புண்ணாக்கு 50 கிலோ போடுங்க.\n*   **முக்கியமான குறிப்பு:** அதிகப்படியான உரம் போட்டா பயிர் சேதமாக வாய்ப்பு இருக்கு. மண்ணோட தன்மை அறிந்து உர அளவை மாத்துங்க.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:28:08.372Z"
+  },
+  {
+    "id": "1758742100967",
+    "type": "text",
+    "query": "my name is aditya",
+    "normalizedQuery": "my name is aditya",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "Namaste Aditya! Welcome to the Kharif rice season in Palakkad. Let's focus on maximizing your yield.\n\nActionable steps:\n1.  Ensure seedlings are 20-25 days old for transplanting.\n2.  Transplant with a spacing of 20 cm x 15 cm.\n3.  Apply basal fertilizer of 100 kg DAP per acre before transplanting.\n\nCaution: Avoid excessive nitrogen fertilizer, as it can promote pest and disease outbreaks.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:28:20.967Z"
+  },
+  {
+    "id": "1758742111368",
+    "type": "text",
+    "query": "can you tell me my name?",
+    "normalizedQuery": "can you tell me my name?",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "As your agronomy assistant, I do not have access to your Personally Identifiable Information (PII). I cannot tell you your name. To protect your privacy, no information is stored during our conversations.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:28:31.368Z"
+  },
+  {
+    "id": "1758742128382",
+    "type": "text",
+    "query": "i grow rice",
+    "normalizedQuery": "i grow rice",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "Okay, great! Here's some quick advice for your Kharif rice crop in Palakkad:\n\n1.  **Nursery:** Prepare a raised nursery bed and sow pre-germinated seeds (soak seeds for 24 hours, then incubate in a warm place for 48 hours until sprouts emerge).\n2.  **Transplanting:** Transplant 21-day-old seedlings with 2-3 seedlings per hill, spacing them at 20x15 cm to promote tillering. \n3.  **Fertilizer:** Apply basal fertilizer like DAP (50 kg/acre) and top dress with urea in split doses based on soil test recommendations to ensure optimal growth.\n4. **Water Management:** Maintain standing water in the field after transplanting.\n\n**Caution:** Over-watering can lead to increased pest and disease incidence. Monitor water levels carefully and drain if needed.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:28:48.382Z"
+  },
+  {
+    "id": "1758742139460",
+    "type": "text",
+    "query": "what crop di i grow?",
+    "normalizedQuery": "what crop di i grow?",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "You're growing rice in the Kharif (monsoon) season. This is a common and suitable crop for Palakkad, Kerala due to the high rainfall. Ensure proper water management, including bunding fields to retain water and appropriate drainage to avoid waterlogging. Caution: Monitor for common rice diseases like blast and sheath blight due to the humid conditions.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:28:59.460Z"
+  },
+  {
+    "id": "1758742240470",
+    "type": "image",
+    "query": "[image upload]",
+    "normalizedQuery": null,
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "Likely leaf blight: remove severely affected leaves and apply copper oxychloride (as per label rate); ensure field drainage and avoid overhead irrigation.",
+      "confidence": 0.76,
+      "source": "stub:plant-disease-model"
+    },
+    "createdAt": "2025-09-24T19:30:40.470Z"
+  },
+  {
+    "id": "1758742274855",
+    "type": "text",
+    "query": "what crop is this?",
+    "normalizedQuery": "what crop is this?",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "This is the Kharif rice crop. Focus now on transplanting seedlings if they are ready. Ensure proper spacing (around 20x15cm) and water management in your fields to maximize yield. Monitor for early signs of pests and diseases, and consult your local agriculture officer if you notice anything unusual; early intervention is crucial.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:31:14.855Z"
+  },
+  {
+    "id": "1758742728939",
+    "type": "text",
+    "query": "ഞാൻ നെല്ല് വളർത്തുന്നുണ്ട്, എനിക്ക് നുറുങ്ങുകൾ തരൂ",
+    "normalizedQuery": "ഞാൻ നെല്ല് വളർത്തുന്നുണ്ട്, എനിക്ക് നുറുങ്ങുകൾ തരൂ",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "തീർച്ചയായും! ഖാരിഫ് സീസണിൽ പാലക്കാട്ടെ നെൽകൃഷിക്ക് ഇതാ ചില നുറുങ്ങുകൾ:\n\n*   വിളവ് കൂട്ടാൻ യൂറിയ @ 22kg/acre, Super phosphate @ 120kg/acre, MOP @ 20kg/acre അടിവളമായി നൽകുക. ഞാറ് നട്ട് 20-25 ദിവസങ്ങൾക്ക് ശേഷം യൂറിയ @ 22kg/acre മേൽവളമായി നൽകുക.\n*   കളകളെ നിയന്ത്രിക്കാൻ ഞാറ് നട്ട് 3-5 ദിവസത്തിനുള്ളിൽ കളനാശിനി ഉപയോഗിക്കുക.\n*   രോഗങ്ങളെയും കീടങ്ങളെയും തടയാൻ കൃത്യമായ ഇടവേളകളിൽ വേപ്പെണ്ണ, ബ്യുവേറിയ ബാസിയാന പോലുള്ള ജൈവകീടനാശിനികൾ ഉപയോഗിക്കുക.\n\nശ്രദ്ധിക്കുക, രാസവളങ്ങളും കീടനാശിനികളും അമിതമായി ഉപയോഗിക്കാതിരിക്കാൻ ശ്രമിക്കുക.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:38:48.939Z"
+  },
+  {
+    "id": "1758742872581",
+    "type": "text",
+    "query": "ഞാൻ നെല്ല് വളർത്തുന്നുണ്ട്, എനിക്ക് നുറുങ്ങുകൾ തരൂ",
+    "normalizedQuery": "ഞാൻ നെല്ല് വളർത്തുന്നുണ്ട്, എനിക്ക് നുറുങ്ങുകൾ തരൂ",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif"
+    },
+    "response": {
+      "answer": "Kharif season-ൽ പാലക്കാട് നെൽകൃഷി ചെയ്യുമ്പോൾ ശ്രദ്ധിക്കേണ്ട ചില കാര്യങ്ങൾ ഇതാ:\n\n*   വിളവ് കൂട്ടാനായി SR134, Uma, അല്ലെങ്കിൽ Jyothi പോലുള്ള നെല്ലിനങ്ങൾ തിരഞ്ഞെടുക്കുക.\n*   കൃത്യമായ ഇടവേളകളിൽ നനയ്ക്കുക. വെള്ളം കെട്ടി നിൽക്കാതെ ശ്രദ്ധിക്കുക.\n*   യൂറിയ 22 kg/acre, സൂപ്പർ ഫോസ്ഫേറ്റ് 50 kg/acre, പൊട്ടാഷ് 17 kg/acre എന്നിവ അടിവളമായി നൽകുക.\n*   കളകളെ യഥാസമയം നിയന്ത്രിക്കുക.\n*   രോഗങ്ങളെയും കീടങ്ങളെയും ശ്രദ്ധയോടെ നിരീക്ഷിക്കുക, ആവശ്യമായ ജൈവ കീടനാശിനികൾ ഉപയോഗിക്കുക.\n\nശ്രദ്ധിക്കുക: രാസവളങ്ങൾ അമിതമായി ഉപയോഗിക്കാതിരിക്കാൻ മണ്ണ് പരിശോധനയുടെ അടിസ്ഥാനത്തിൽ വളം ചേർക്കുക.\n",
+      "confidence": 0.88,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:41:12.581Z"
+  },
+  {
+    "id": "1758743079454",
+    "type": "text",
+    "query": "ഞാൻ പാലക്കാട് പരവാളത്തോട്ടം വളർത്തുന്നു, എനിക്ക് കീടനാശിനി ശുപാർശ ചെയ്യൂ",
+    "normalizedQuery": "ഞാൻ പാലക്കാട് പരവാളത്തോട്ടം വളർത്തുന്നു, എനിക്ക് കീടനാശിനി ശുപാർശ ചെയ്യൂ",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif",
+      "weather": {
+        "tempC": 30,
+        "humidity": 70,
+        "condition": "Partly cloudy"
+      }
+    },
+    "response": {
+      "answer": "For stem borers and leaf folders in your Palakkad rice fields, apply Chlorantraniliprole 0.4% GR at 10 kg/hectare, 15-20 days after transplanting. Monitor fields regularly for pests and implement Integrated Pest Management (IPM) practices like using pheromone traps and releasing Trichogramma wasps to minimize insecticide use.\nNext Step: If the problem persists, share photos of the affected plants and pests with me.\nCAUTION: Always wear protective gear when applying insecticides.\n",
+      "confidence": 0.9,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:44:39.454Z",
+    "feedback": {
+      "helpful": false,
+      "at": "2025-09-24T19:44:43.571Z"
+    }
+  },
+  {
+    "id": "1758743103401",
+    "type": "text",
+    "query": "കൊയ്ത്ത് പയർക്ക് ശുക്ലാങ്കാശം രോഗം എങ്ങനെ നിയന്ത്രിക്കാം?",
+    "normalizedQuery": "കൊയ്ത്ത് പയർക്ക് ശുക്ലാങ്കാശം രോഗം എങ്ങനെ നിയന്ത്രിക്കാം?",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif",
+      "weather": {
+        "tempC": 30,
+        "humidity": 70,
+        "condition": "Partly cloudy"
+      }
+    },
+    "response": {
+      "answer": "To manage whitefly (ശുക്ലാങ്കാശം) in your rice crop, apply neem oil at 5 liters/hectare or fish oil resin soap at 25 kg/hectare. Implement IPM strategies like yellow sticky traps to monitor and control the whitefly population. \n\nCaution: Always wear protective gear when applying pesticides.\n\nIf the problem persists or if you notice yellowing and stunted growth, consider soil testing to assess nutrient deficiencies.\n",
+      "confidence": 0.9,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:45:03.401Z"
+  },
+  {
+    "id": "1758743238825",
+    "type": "text",
+    "query": "ഞാൻ പാലക്കാട് പരവാളത്തോട്ടം വളർത്തുന്നു, എനിക്ക് കീടനാശിനി ശുപാർശ ചെയ്യൂ",
+    "normalizedQuery": "ഞാൻ പാലക്കാട് പരവാളത്തോട്ടം വളർത്തുന്നു, എനിക്ക് കീടനാശിനി ശുപാർശ ചെയ്യൂ",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif",
+      "weather": {
+        "tempC": 30,
+        "humidity": 70,
+        "condition": "Partly cloudy"
+      },
+      "preferMalayalam": true
+    },
+    "response": {
+      "answer": "പാലക്കാട്ടെ നിങ്ങളുടെ പരവാളത്തോട്ടത്തിൽ കീടനാശിനി ഉപയോഗിക്കുന്നതിന് മുൻപ്, ഒരു സംയോജിത കീട നിയന്ത്രണ മാർഗ്ഗം (IPM) സ്വീകരിക്കാൻ ഞാൻ ശുപാർശ ചെയ്യുന്നു. വേപ്പെണ്ണ (5 ml/ലിറ്റർ വെള്ളം) തളിക്കുക. ഇത് പ്രാണികളെ അകറ്റാനും നിയന്ത്രിക്കാനും സഹായിക്കും.\n\nമണ്ണ് ഉറഞ്ഞുപോയതായി തോന്നുന്നുണ്ടെങ്കിൽ, അടുത്തതായി മണ്ണ് പരിശോധന നടത്തുന്നത് നല്ലതാണ്.\n",
+      "confidence": 0.9,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:47:18.825Z"
+  },
+  {
+    "id": "1758743252197",
+    "type": "text",
+    "query": "കൊയ്ത്ത് പയർക്ക് ശുക്ലാങ്കാശം രോഗം എങ്ങനെ നിയന്ത്രിക്കാം?",
+    "normalizedQuery": "കൊയ്ത്ത് പയർക്ക് ശുക്ലാങ്കാശം രോഗം എങ്ങനെ നിയന്ത്രിക്കാം?",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif",
+      "weather": {
+        "tempC": 30,
+        "humidity": 70,
+        "condition": "Partly cloudy"
+      },
+      "preferMalayalam": true
+    },
+    "response": {
+      "answer": "കൊയ്ത്ത് പയറിലെ (Cowpea) ശുക്ലാങ്കാശം (Powdery mildew) നിയന്ത്രിക്കാൻ, സസ്യ സംരക്ഷണത്തിനായി പ്രോപ്പികോണസോൾ (Propiconazole) 0.1% എന്ന തോതിൽ തളിക്കുക. രോഗം ബാധിച്ച ഇലകൾ നീക്കം ചെയ്യുക, വിള പരിക്രമണം (Crop rotation) ചെയ്യുക. ஒருங்கிணைந்த കീട நிர்வாக முறைகள் (Integrated Pest Management - IPM) പിന്തുടരുക.\n\nകൂടുതൽ വിവരങ്ങൾ ആവശ്യമുണ്ടെങ്കിൽ ചോദിക്കാം, അല്ലെങ്കിൽ മണ്ണ് പരിശോധന നടത്തുന്നത് നല്ലതാണ്.\n",
+      "confidence": 0.9,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-24T19:47:32.197Z"
+  }
+]
