@@ -330,5 +330,53 @@
       "source": "gemini-2.0-flash"
     },
     "createdAt": "2025-09-24T19:47:32.197Z"
+  },
+  {
+    "id": "1758818643153",
+    "type": "text",
+    "query": "hi",
+    "normalizedQuery": "hi",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif",
+      "weather": {
+        "tempC": 30,
+        "humidity": 70,
+        "condition": "Partly cloudy"
+      },
+      "preferMalayalam": false,
+      "imageAttached": false
+    },
+    "response": {
+      "answer": "Namaste! Ready to help you with your Kharif rice crop in Palakkad. Let's focus on Integrated Pest Management (IPM) under these warm, humid conditions.\n\n*   **Monitor Regularly:** Scout your field at least twice a week for pests and diseases. Note the numbers and locations.\n*   **Weed Control:** Hand weeding is best early on. Can also use pre-emergence herbicide like butachlor at 1.5 liters/hectare (0.6 liters/acre) if needed.\n*   **Blast Prevention:** Check for signs of leaf blast. If found, apply propiconazole at 0.5 liter/hectare (0.2 liters/acre).\n\nStay vigilant!\n",
+      "confidence": 0.9,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-25T16:44:03.153Z"
+  },
+  {
+    "id": "1758818760926",
+    "type": "text",
+    "query": "im growing rice, give money to get best yield",
+    "normalizedQuery": "im growing rice, give money to get best yield",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif",
+      "weather": {
+        "tempC": 30,
+        "humidity": 70,
+        "condition": "Partly cloudy"
+      },
+      "preferMalayalam": false,
+      "imageAttached": false
+    },
+    "response": {
+      "answer": "Okay, here's a plan to help boost your rice yield this Kharif season in Palakkad, keeping costs reasonable and prioritizing Integrated Pest Management (IPM):\n\n**Fertilizer & Amendments:**\n\n*   **Basal application:** Apply well-decomposed compost or farmyard manure at 10 tonnes/ha (4 tonnes/acre) before transplanting. This improves soil health and water retention.\n*   **NPK:** Apply 80 kg N, 40 kg P2O5, and 40 kg K2O per hectare (32 kg N, 16 kg P2O5, and 16 kg K2O per acre). Split nitrogen into three applications: basal, tillering, and panicle initiation.\n*   **Zinc:** Apply Zinc Sulphate at 25 kg/ha (10 kg/acre) if deficiency is suspected, based on soil testing or visual symptoms (e.g., Khaira disease).\n\n**Pest & Disease Management (IPM focused):**\n\n*   **Scouting:** Regularly monitor fields for pests and diseases. Check at least 10 spots per hectare.\n*   **Water management:** Maintain a shallow water level (2-5 cm) to suppress weed growth and some insect pests. Drain fields periodically to disrupt pest life cycles.\n*   **Biopesticides:** Use *Trichoderma* spp. as a seed treatment and soil application to prevent fungal diseases. For insect pests like stem borers, consider *Bacillus thuringiensis* (Bt) formulations if infestation levels warrant.\n\nRemember to consult with your local agricultural extension officer for specific recommendations tailored to your field conditions.\n",
+      "confidence": 0.9,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-25T16:46:00.926Z"
   }
 ]
