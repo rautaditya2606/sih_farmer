@@ -378,5 +378,53 @@
       "source": "gemini-2.0-flash"
     },
     "createdAt": "2025-09-25T16:46:00.926Z"
+  },
+  {
+    "id": "1758825814483",
+    "type": "text",
+    "query": "hi",
+    "normalizedQuery": "hi",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif",
+      "weather": {
+        "tempC": 30,
+        "humidity": 70,
+        "condition": "Partly cloudy"
+      },
+      "preferMalayalam": false,
+      "imageAttached": false
+    },
+    "response": {
+      "answer": "Namaste! Ready to help with your Kharif rice in Palakkad. Let's focus on Integrated Pest Management (IPM) given the weather.\n\nHere are some general recommendations to consider:\n\n*   **Monitor for pests and diseases:** Regularly scout your fields for signs of stem borers, brown planthoppers, and blast disease, especially with the humid conditions. Note any areas of high infestation.\n*   **Water Management:** Ensure proper water depth in the fields (around 5 cm) for weed control and to discourage some pests. However, allow for periodic drainage.\n*   **Nutrient Management:** Apply urea based on soil test results. Consider neem-coated urea to improve nitrogen use efficiency. Apply 120 kg/ha (48 kg/acre) of nitrogen in split doses.\n",
+      "confidence": 0.9,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-25T18:43:34.483Z"
+  },
+  {
+    "id": "1758825955589",
+    "type": "text",
+    "query": "hi",
+    "normalizedQuery": "hi",
+    "metadata": {
+      "farmerLocation": "Palakkad, Kerala, India",
+      "crop": "Rice",
+      "season": "Kharif",
+      "weather": {
+        "tempC": 30,
+        "humidity": 70,
+        "condition": "Partly cloudy"
+      },
+      "preferMalayalam": false,
+      "imageAttached": false
+    },
+    "response": {
+      "answer": "Namaste! Let's ensure a healthy Kharif rice crop in Palakkad.\n\nHere's a general IPM approach, given the partly cloudy weather with high humidity:\n\n*   **Scout fields regularly:** Look for early signs of pests and diseases like blast or brown spot. Target 10 random locations per hectare.\n*   **Weed Management:** Hand-weed or use a rotary weeder early in the season to minimize competition. If necessary, use post-emergent herbicides like Bispyribac Sodium at 150-200 ml/ha (60-80 ml/acre).\n*   **Nutrient Management:** Apply basal dose of fertilizers based on soil test results. Typically, apply about 120 kg N, 60 kg P2O5, and 60 kg K2O per hectare (48 kg N, 24 kg P2O5, and 24 kg K2O per acre). Split Nitrogen application for better utilization.\n\nWhat are your specific concerns or observations in the field? Knowing more helps tailor my advice.\n",
+      "confidence": 0.9,
+      "source": "gemini-2.0-flash"
+    },
+    "createdAt": "2025-09-25T18:45:55.589Z"
   }
 ]

@@ -2,16 +2,8 @@ const messagesEl = document.getElementById('messages');
 const chatBody = document.getElementById('chat');
 const typingEl = document.getElementById('typing');
 const textEl = document.getElementById('text');
-const imageInput = document.getElementById('image');
-const imageBtn = document.getElementById('imageBtn');
-const imgPreview = document.getElementById('imgPreview');
-const imgThumb = document.getElementById('imgThumb');
-const clearImg = document.getElementById('clearImg');
-const micBtn = document.getElementById('micBtn');
 const sendBtn = document.getElementById('sendBtn');
 
-let mediaRecorder;
-let audioChunks = [];
 let lastQueryId = null;
 
 function renderSimpleMarkdown(text) {
@@ -21,7 +13,7 @@ function renderSimpleMarkdown(text) {
     .replace(/>/g, '&gt;');
   html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   html = html.replace(/^\s*[-•]\s+(.*)$/gm, '<li>$1</li>');
-  html = html.replace(/(<li>.*<\/li>)(\s*(?!<li>))/gs, '<ul>$1</ul>$2');
+  html = html.replace(/(<li>.*<\/li>)(\s*(?!<li>))/gs, '<ul>$1<\/ul>$2');
   html = html.replace(/\n\n/g, '<br/><br/>');
   return html;
 }
@@ -111,68 +103,21 @@ function autoresizeTextarea(el) {
 }
 textEl.addEventListener('input', () => autoresizeTextarea(textEl));
 
-imageBtn.addEventListener('click', () => imageInput.click());
-imageInput.addEventListener('change', () => {
-  const file = imageInput.files && imageInput.files[0];
-  if (file) {
-    const url = URL.createObjectURL(file);
-    imgThumb.src = url;
-    imgPreview.classList.remove('hidden');
-  } else {
-    imgThumb.src = '';
-    imgPreview.classList.add('hidden');
-  }
-});
-clearImg.addEventListener('click', () => {
-  imageInput.value = '';
-  imgThumb.src = '';
-  imgPreview.classList.add('hidden');
-});
-
-let recording = false;
-micBtn.addEventListener('click', async () => {
-  if (!mediaRecorder || mediaRecorder.state === 'inactive') {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      mediaRecorder = new MediaRecorder(stream);
-      audioChunks = [];
-      mediaRecorder.ondataavailable = e => { if (e.data.size > 0) audioChunks.push(e.data); };
-      mediaRecorder.onstop = () => { micBtn.textContent = '🎙️'; recording = false; };
-      mediaRecorder.start();
-      recording = true;
-      micBtn.textContent = '⏹️';
-    } catch (e) {
-      micBtn.textContent = '🚫';
-      setTimeout(() => micBtn.textContent = '🎙️', 1200);
-    }
-  } else {
-    mediaRecorder.stop();
-  }
-});
-
 async function sendMessage() {
   const text = textEl.value.trim();
-  const hasImage = imageInput.files && imageInput.files[0];
-  const hasAudio = audioChunks.length > 0;
-  if (!text && !hasImage && !hasAudio) return;
+  if (!text) return;
 
-  appendMessage('user', text || (hasImage ? '[Image]' : '[Voice]'));
+  appendMessage('user', text);
   textEl.value = '';
   autoresizeTextarea(textEl);
 
-  const formData = new FormData();
-  if (text) formData.append('text', text);
-  if (hasImage) formData.append('image', imageInput.files[0]);
-  if (hasAudio) {
-    const blob = new Blob(audioChunks, { type: 'audio/webm' });
-    formData.append('voice', blob, 'voice.webm');
-    audioChunks = [];
-    micBtn.textContent = '🎙️';
-  }
-
   showTyping(true);
   try {
-    const resp = await fetch('/api/query', { method: 'POST', body: formData });
+    const resp = await fetch('/api/query', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text })
+    });
     const data = await resp.json();
     showTyping(false);
     if (!resp.ok) throw new Error(data.error || 'Request failed');
@@ -182,14 +127,6 @@ async function sendMessage() {
     lastQueryId = data.id || null;
     if (lastQueryId) addFeedbackButtons(bubble, lastQueryId);
     addCopyButton(bubble, data.answer || '');
-
-    if (hasImage) {
-      // Clean up preview
-      URL.revokeObjectURL(imgThumb.src);
-      imageInput.value = '';
-      imgThumb.src = '';
-      imgPreview.classList.add('hidden');
-    }
   } catch (e) {
     showTyping(false);
     appendMessage('assistant', e.message || 'Something went wrong.');
@@ -202,4 +139,4 @@ textEl.addEventListener('keydown', (e) => {
     e.preventDefault();
     sendMessage();
   }
-}); 
+});
